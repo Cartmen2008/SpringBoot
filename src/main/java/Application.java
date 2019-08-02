@@ -14,7 +14,7 @@ public class Application {
     public static void main( String[] args) {
         SpringApplication.run(Application.class, args);
         System.getProperties().put( "server.port", 8181 );
-        SpringApplication.run(Application.class, args);
+
     }
 
     @Bean
